@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Евгений - Акафисты, каноны, молитвы</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    // Подключение header.html
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <!-- Меню -->
+  <div id="menu-placeholder"></div>
+  <script>
+    // Подключение menu.html
+    fetch('menu.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <main class="container">
+    <section>
+      <h2>Акафисты, каноны, молитвы</h2>
+      <p></p>
+
+      <!-- Блок с кнопками контактов -->
+      <div class="contact-buttons">
+        <a href="https://azbyka.ru/molitvoslov/kanon-svjatym-muchenikam-evgeniju-kanidiju-ualerianu-i-akile-trapezundskim.html" style="text-decoration: none;">
+          <button><i class="fa fa-envelope"></i> Канон святым мученикам Евгению, Канидию, Уалериану и Акиле Трапезундским </button>
+        </a>
+        <a href="https://azbyka.ru/molitvoslov/kanon-svjatym-muchenikam-v-melitine-postradavshim.html" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-paper-plane"></i> Канон святым мученикам, в Мелитине пострадавшим </button>
+        </a>
+
+          
+        <a href="https://azbyka.ru/molitvoslov/kanon-svjatym-svjashhennomuchenikam-v-hersone-episkopstvovavshim-vasiliju-efremu-kapitonu-evgeniju-eferiju-i-prochim.html" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Канон святым священномученикам, в Херсоне епископствовавшим: Василию, Ефрему, Капитону, Евгению, Еферию и прочим </button>
+        </a>
+
+   <a href="https://azbyka.ru/molitvoslov/kanon-muchenikam-evstratiju-avksentiju-evgeniju-mardariju-i-orestu-sevastijskim.html" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Канон мученикам Евстратию, Авксентию, Евгению, Мардарию и Оресту Севастийским </button>
+        </a>
+
+
+   <a href="https://azbyka.ru/molitvoslov/akafist-svjatomu-novomucheniku-vrachu-evgeniju-botkinu.html" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Акафист святому новомученику врачу Евгению Боткину </button>
+        </a>
+
+
+
+   <a href="https://azbyka.ru/otechnik/Dimitrij_Muretov/akafist-svjatym-svjashennomuchenikam-vasiliyu-efremu-evgeniyu-elpidiyu-agafodoru-eferiyu-i-kapitonu-v-hersone-episkopstvovavshim/" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Акафист священномученикам Василию, Ефрему, Евгению, Елпидию, Агафодору, Еферию и Капитону, в Херсоне епископствовавшим </button>
+        </a>
+
+
+
+   <a href="https://azbyka.ru/molitvoslov/akafist-svjatoj-prepodobnomuchenice-evgenii-rimskoj.html" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Акафист святой преподобномученице Евгении Римской </button>
+        </a>
+
+
+
+
+
+      </div>
+
+      <!-- Форма обратной связи -->
+      <h3>Написать Евгению</h3>
+      <form action="https://formspree.io/f/mblgjloe" method="POST" class="contact-form">
+        <label>
+          Ваше имя:
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Ваш email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Ваше сообщение:
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="form-button">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    // Подключение footer.html
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

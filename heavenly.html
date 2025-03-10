@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Евгений - Небесные покровители</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+  <script>
+    // Подключение header.html
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <!-- Меню -->
+  <div id="menu-placeholder"></div>
+  <script>
+    // Подключение menu.html
+    fetch('menu.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('menu-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <main class="container">
+    <section>
+      <h2>Небесные покровители</h2>
+      <p></p>
+
+      <!-- Блок с кнопками контактов -->
+
+
+      <div class="contact-buttons">
+        <a href="https://azbyka.ru/days/sv-evgenij-melitinskij" style="text-decoration: none;">
+          <button><i class="fa fa-envelope"></i> Мученик Евге́ний Мелитинский <br> 20 ноября </button>
+        </a>
+
+
+        <a href="https://azbyka.ru/days/sv-evgenij-sevastijskij" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-paper-plane"></i> Мученик Евге́ний Севастийский <br>
+26 декабря </button>
+        </a>
+
+          
+        <a href="https://azbyka.ru/days/sv-evgenija-rimskaja" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Преподобномученица Евгения Римская, дева<br>
+6 января</button>
+        </a>
+
+
+       <a href="https://azbyka.ru/days/sv-evgenij-trapezundskij" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Мученик Евге́ний Трапезундский<br>
+3 февраля </button>
+        </a>
+
+       <a href="https://azbyka.ru/days/sv-evgenij-vifinskij" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Преподобный Евге́ний Вифинский<br>
+25 февраля </button>
+        </a>
+
+       <a href="https://azbyka.ru/days/sv-evgenij-hersonesskij" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Священномученик Евге́ний Херсонесский, епископ<br>
+20 марта, 28 декабря </button>
+        </a>
+
+       <a href="https://azbyka.ru/days/sv-evgenij-botkin-vrach-strastoterpec" target="_blank" style="text-decoration: none;">
+          <button><i class="fa fa-user"></i> Праведный Евге́ний Боткин, врач, страстотерпец<br>
+17 июля </button>
+        </a>
+
+      </div>
+
+      <!-- Форма обратной связи -->
+      <h3>Написать Евгению</h3>
+      <form action="https://formspree.io/f/mblgjloe" method="POST" class="contact-form">
+        <label>
+          Ваше имя:
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Ваш email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Ваше сообщение:
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="form-button">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <script>
+    // Подключение footer.html
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
