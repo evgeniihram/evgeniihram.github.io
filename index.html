@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Евгений - Келейный храм Евгения</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Келейный храм Евгения</title>
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <!-- Header -->
-  <div id="header-placeholder"></div>
-  <script>
-    // Подключение header.html
-    fetch('header.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('header-placeholder').innerHTML = data;
-      });
-  </script>
+  <header>
+    <h1>Келейный храм Евгения</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="loadPage('pray')">Молитвенная помощь</a></li>
+        <li><a href="#" onclick="loadPage('akaf')">Акафисты, каноны, молитвы</a></li>
+<li><a href="#" onclick="loadPage('heaven')">Небесные покровители</a></li>
 
-  <!-- Меню -->
-  <div id="menu-placeholder"></div>
-  <script>
-    // Подключение menu.html
-    fetch('menu.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('menu-placeholder').innerHTML = data;
-      });
-  </script>
+        <li><a href="#" onclick="loadPage('minjust')">Подтверждения Минюста РФ</a></li>
+      
+        <li><a href="#" onclick="loadPage('contacts')">Контакты</a></li>
+        <li><a href="#" onclick="loadPage('donate')">Пожертвования</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <main class="container">
-    <section>
-      <h2>Здравствуйте! </h2>
+  <main id="content">
+  
+    <p>
+
+  <img src="evgenii.jpg" alt="Келейный храм Евгения" style="max-width:100%;margin-top:20px;">
       <p>
+
+ <h2>Здравствуйте! </h2>
 По заявкам конфиденциально: 
 <br><br>
 Оказываю молитвенную помощь и поддержку. В том числе и о том, за что другие отказывают. <br>
@@ -64,92 +68,27 @@
 
 </p>
 
-      <!-- Блок с кнопками контактов -->
-      <div class="contact-buttons">
-
-
-      <a href="mailto:mailto:EvgeniiHram@outlook.com" style="text-decoration: none;">
-          <button><i class="fa fa-envelope"></i> Email</button>
-        </a>
-        <a href="https://t.me/EvgeniiHram" target="_blank" style="text-decoration: none;">
-          <button><i class="fa fa-paper-plane"></i> Telegram</button>
-        </a>
-
-        <a href="https://wa.me/message/GEDYZ3IQQLGBM1" target="_blank" style="text-decoration: none;">
-          <button><i class="fa fa-user"></i> WhatsApp </button>
-          
-
-      <a href="https://x.com/EvgeniiHram" target="_blank" style="text-decoration: none;">
-          <button><i class="fa fa-user"></i> X </button>
-        </a>
-
-      <a href="https://www.instagram.com/evgeniihram" target="_blank" style="text-decoration: none;">
-          <button><i class="fa fa-user"></i> Instagram </button>
-        </a>
-
-        <a href="https://bastyon.com/evgeniihram" target="_blank" style="text-decoration: none;">
-          <button><i class="fa fa-user"></i> Bastyon</button>
-        </a>
-      </div>
-
-      <!-- Форма обратной связи -->
-     <h3>Написать сообщение:</h3>
-      <form action="https://formspree.io/f/mblgjloe" method="POST" class="contact-form">
-        <label>
-          Ваше имя:
-          <input type="text" name="name" required>
-        </label>
-        <label>
-          Ваш email:
-          <input type="email" name="email" required>
-        </label>
-        <label>
-          Ваше сообщение:
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <button type="submit" class="form-button">Отправить</button>
-      </form>
-
-<br><br>
- <h3>Пожертвовать</h3>
-
-Карта ВТБ: 2200 2407 5492 3262
-<br><br>
-
-Через систему быстрых платежей (СБП) по номеру телефона: +7 (992) 090 44 48 (Альфа-Банк)
-<br><br>
-
-BTC:<br>
-bc1qhckevdwqsshxs584d4709uxy0c7w4w08naf9xa
-<br><br>
-
-USDT:<br>
-0x688cdFa8463aFC1D517b556d51342f081d993947
-<br><br>
-
-XRP:<br>
-rDtEucEBf5KoFGNmt93138Jt3cSe6Gv7xV
+    <br>Email:
+ <a href="mailto:EvgeniiHram@outlook.com" target="_blank">EvgeniiHram@outlook.com</a>
+ <br>Telegram: 
+ <a href="https://t.me/EvgeniiHram" target="_blank">@EvgeniiHram</a>
+   <br>WhatsApp:
+ <a href="https://wa.me/message/GEDYZ3IQQLGBM1" target="_blank">Келейный храм Евгения</a>
+ <br>X: 
+ <a href="https://x.com/EvgeniiHram" target="_blank">@EvgeniiHram</a>
+   <br>Instagram:
+ <a href="https://www.instagram.com/evgeniihram" target="_blank">@EvgeniiHram</a>
+ <br>Bastyon: 
+ <a href="https://bastyon.com/evgeniihram" target="_blank">@EvgeniiHram</a>
 
 
 
-
-
-<br><br>
-
-    </section>
+        
+</p>
   </main>
 
-  <!-- Footer -->
-  <div id="footer-placeholder"></div>
-  <script>
-    // Подключение footer.html
-    fetch('footer.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('footer-placeholder').innerHTML = data;
-      });
-  </script>
-
-  <script src="script.js"></script>
+  <footer>
+    <p>&copy; Келейный храм Евгения, 2024-2025</p>
+  </footer>
 </body>
 </html>
