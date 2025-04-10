@@ -167,10 +167,7 @@ heaven: `
 
 
   contacts: `
-   <p>
-
-  <img src="evgenii.jpg" alt="Келейный храм Евгения" style="max-width:100%;margin-top:20px;">
-      <p>
+  
 <h2>Контакты</h2><p>По всем вопросам:  <br>Email:
  <a href="mailto:EvgeniiHram@outlook.com" target="_blank">EvgeniiHram@outlook.com</a>
  <br>Telegram: 
@@ -185,10 +182,7 @@ heaven: `
  <a href="https://bastyon.com/evgeniihram" target="_blank">@EvgeniiHram</a>
 </p>`,
 
-  donate: `   <p>
-
-  <img src="evgenii.jpg" alt="Келейный храм Евгения" style="max-width:100%;margin-top:20px;">
-      <p>
+  donate: `   
 
 <h2>Пожертвовать</h2><p></p><ul>
         <li>Карта ВТБ: 2200 2407 5492 3262</li>    
