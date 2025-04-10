@@ -168,7 +168,7 @@ heaven: `
 
   contacts: `
   
-<h2>Контакты</h2><p>По всем вопросам:  <br>Email:
+<h2>Контакты</h2><p>  Email:
  <a href="mailto:EvgeniiHram@outlook.com" target="_blank">EvgeniiHram@outlook.com</a>
  <br>Telegram: 
  <a href="https://t.me/EvgeniiHram" target="_blank">@EvgeniiHram</a>
