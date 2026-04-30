@@ -184,6 +184,9 @@ heaven: `
  <a href="https://bastyon.com/evgeniihram" target="_blank">@EvgeniiHram</a>
 <br>Forta Chat: 
  <a href="https://forta.chat/#/invite?ref=PWfrY2idy71JDPqDgfKz8HPxswEnM45aSm" target="_blank">@EvgeniiHram</a>
+<br>Delta Chat: 
+ <a href="https://i.delta.chat/#2DEF688ED1EBB481760E087B94A14E0585E4DE1B&v=3&i=sMrsjCK_gGw9-aI_sAYp8U_N&s=h-UAjygvqSu_jbTELWhoa7_r&a=eh707%40yandex.ru&n=EvgeniiHram" target="_blank">@EvgeniiHram</a>
+
 </p>`,
 
   donate: `   
