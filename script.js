@@ -182,6 +182,8 @@ heaven: `
  <a href="https://www.instagram.com/evgeniihram" target="_blank">@EvgeniiHram</a>
  <br>Bastyon: 
  <a href="https://bastyon.com/evgeniihram" target="_blank">@EvgeniiHram</a>
+<br>Forta Chat: 
+ <a href="https://forta.chat/#/invite?ref=PWfrY2idy71JDPqDgfKz8HPxswEnM45aSm" target="_blank">@EvgeniiHram</a>
 </p>`,
 
   donate: `   
