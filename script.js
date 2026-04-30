@@ -191,20 +191,7 @@ heaven: `
 
 <br><br>
 <li>Через систему быстрых платежей (СБП) по номеру телефона: <br>+7 (992) 094 18 60 (ВТБ)</li><br><br>
-    <li>Криптовалюта: <br><br>
-BTC<br>
-bc1qhckevdwqsshxs584d4709uxy0c7w4w08naf9xa
-<br><br>
-USDT
-<br>
-0x688cdFa8463aFC1D517b556d51342f081d993947
-<br><br>
-XRP
-<br>
-rDtEucEBf5KoFGNmt93138Jt3cSe6Gv7xV
-<br>
-</li>
-  
+
     
   </ul>`
 };
