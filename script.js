@@ -77,10 +77,9 @@ heaven: `
    
 <h2>Небесные покровители</h2><p>
 
+
 <div data-patron-widget></div>
-<script src="https://evgeniihram.github.io/temple-patrons/widget.js" defer></script>
-
-
+<script src="https://cdn.jsdelivr.net/gh/evgeniihram/temple-patrons@main/widget.js" defer></script>
 
 <br>
     
